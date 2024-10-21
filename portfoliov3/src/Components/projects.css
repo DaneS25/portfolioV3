@@ -1,21 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
 .projects-container {
     padding: 20px;
     background-color: #232323;
     margin-top: 30px;
+    max-width: 1200px; /* Set the max width to center the container within the page */
+    margin-left: auto; /* Ensure the container is centered horizontally */
+    margin-right: auto; /* Ensure the container is centered horizontally */
+    width: 100%; /* Ensure the container takes up the full width */
 }
 
 .projects-header {
-    text-align: center;
-    font-size: 24px;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background: linear-gradient(45deg, #BF5700, #E3D9B6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #d0c7c7;
+    margin-left: 110px;
 }
 
 .projects-content {
     display: flex;
     justify-content: center; /* Center the project containers */
     align-items: flex-start;
+    padding-bottom: 80px;
 }
 
 .project {
@@ -34,7 +50,7 @@
 
 .slideshow img {
     position: absolute; /* Position each image on top of each other */
-    width: 50%; /* Make images smaller */
+    width: 100%; /* Make images smaller */
     height: auto; /* Maintain aspect ratio */
     top: 50%; /* Center images vertically */
     left: 50%; /* Center images horizontally */
@@ -59,7 +75,45 @@
 
 .project-description {
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     color: #666;
 }
+
+.project-description.poker-description {
+    margin-left: 40px; /* Adjust this value as needed */
+}
+
+.headerText {
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background: linear-gradient(45deg, #BF5700, #E3D9B6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projectText {
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    color: #d0c7c7;
+    text-align: left;
+}
+
+.link-button-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically center items */
+    margin-top: 10px; /* Space above the container */
+}
+
+.buttonDemo {
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+}
+  
