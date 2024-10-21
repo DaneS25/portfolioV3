@@ -1,0 +1,19 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* or any font of your choice */
+  background-color: #333333; /* Charcoal color */
+}
+
+.App {
+  text-align: center; /* Center text by default */
+  background-color: #333333; /* Charcoal color */
+}
+
+

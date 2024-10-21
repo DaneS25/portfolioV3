@@ -1,0 +1,22 @@
+/* animationText.css */
+
+.heroSection {
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center contents */
+    background-color: #333333; /* Charcoal color */
+}
+
+.container {
+    display: grid;
+    place-items: center; /* Center content within the container */
+}
+
+.wrapper {
+    font-size: 48px; /* Adjust the size as needed */
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    margin-bottom: 20px; /* Space between name and animation */
+    color: #E3D9B6; /* Change to Bone White */
+}
