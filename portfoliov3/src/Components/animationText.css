@@ -1,11 +1,14 @@
 /* animationText.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
 .heroSection {
     height: 100vh; /* Full height */
     display: flex;
     align-items: center;
     justify-content: center; /* Center contents */
-    background-color: #333333; /* Charcoal color */
+    background-color: #232323; /* Charcoal color */
 }
 
 .container {
@@ -14,9 +17,30 @@
 }
 
 .wrapper {
-    font-size: 48px; /* Adjust the size as needed */
+    font-family: "Raleway", sans-serif; /* Use Raleway font */
+    font-size: 108px; /* Adjust the size as needed */
+    font-style: italic;
+    font-weight: 900;
     display: flex;
-    justify-content: center; /* Center text horizontally */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center text horizontally */
     margin-bottom: 20px; /* Space between name and animation */
     color: #E3D9B6; /* Change to Bone White */
+    line-height: 0.6; /* Adjust line height to reduce space between lines */
+}
+
+.animation {
+    margin-top: -10px; /* Move animation up */
+    margin-right: 45px;
+    font-family: 'Fira Code', monospace;
+}
+
+/* Optional: Style for each name if you want to adjust them separately */
+.dane {
+    color: #E3D9B6; /* Change to Bone White */
+    margin-right: 65px; /* Move "Dane" to the left */
+}
+
+.sorensen {
+    color: #BF5700; /* Change to Burnt Orange */
 }
