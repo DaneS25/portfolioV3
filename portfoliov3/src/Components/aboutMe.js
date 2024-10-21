@@ -12,7 +12,7 @@ export function AboutMe() {
                 <div className="about-me-text">
                     <h2>About Me</h2>
                     <p>
-                        Hi! I'm Dane Sorensen, a passionate IT professional from Dunedin. I recently graduated with a Bachelor of Information Technology and have been working in IT support. 
+                        Hi! I'm Dane Sorensen, a passionate IT professional based in New Zealand. In June of 2023 I graduated with a Bachelor of Information Technology and have been working in IT support. 
                         My interests include web development, penetration testing, and cyber security. I enjoy taking on new challenges and continuously improving my skills.
                     </p>
                 </div>
