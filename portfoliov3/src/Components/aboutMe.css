@@ -1,0 +1,42 @@
+/* aboutMe.css */
+
+/* About Me Section */
+.about-me-section {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 50px 20px; /* Add some padding around the section */
+    background-color: #232323; /* Optional background color */
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    max-width: 1200px; /* Limit width for larger screens */
+    width: 100%;
+}
+
+/* Image styling */
+.about-me-image {
+    width: 150px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: add border radius for rounded corners */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Text styling */
+.about-me-text {
+    color: #E3D9B6; /* Bone White color */
+    font-family: 'Poppins', sans-serif;
+    text-align: left; /* Align text to the left */
+}
+
+.about-me-text h2 {
+    font-size: 24px; /* Adjust the size as needed */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.about-me-text p {
+    font-size: 16px; /* Adjust font size for paragraph */
+    line-height: 1.5; /* Improve readability */
+}
