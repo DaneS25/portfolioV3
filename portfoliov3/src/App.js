@@ -1,12 +1,14 @@
 // App.js
 
 import React from 'react';
-import './App.css'; // Your global styles
-import { AnimationText } from './Components/animationText'; // Adjust the import path as necessary
+import './App.css';
+import { AnimationText } from './Components/animationText';
+import { NavBar } from './Components/navBar';
 
 function App() {
     return (
         <div className="App">
+            <NavBar />
             <AnimationText />
         </div>
     );
