@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './aboutMe.css'; // Import the CSS file
-import meow from '../Assets/meow.jpg'; // Adjust the path to your image
+import meow from '../Assets/mepicture.jpg'; // Adjust the path to your image
 
 export function AboutMe() {
     return (
