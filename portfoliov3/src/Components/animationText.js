@@ -14,11 +14,11 @@ export function AnimationText() {
                 <div className='animation'>
                 <TypeAnimation
                     sequence={[
-                        'A Graduate in Information Technology.',
-                        1000,
-                        'Passionate about Cybersecurity.',
+                        'Degree holder in Information Technology.',
                         1000,
                         'Passionate about Web Development.',
+                        1000,
+                        'Passionate about Cybersecurity.',
                         1000,
                     ]}
                     wrapper="span"

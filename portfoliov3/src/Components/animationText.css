@@ -1,7 +1,7 @@
 /* animationText.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
 
 .heroSection {
     height: 100vh; /* Full height */
@@ -17,20 +17,19 @@
 }
 
 .wrapper {
-    font-family: "Raleway", sans-serif; /* Use Raleway font */
-    font-size: 108px; /* Adjust the size as needed */
+    font-family: "Gasoek One", sans-serif;
+    font-size: 138px; /* Adjust the size as needed */
     font-style: italic;
-    font-weight: 900;
+    font-weight: 400;
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center text horizontally */
     margin-bottom: 20px; /* Space between name and animation */
     color: #E3D9B6; /* Change to Bone White */
-    line-height: 0.6; /* Adjust line height to reduce space between lines */
+    line-height: 0.7; /* Adjust line height to reduce space between lines */
 }
 
 .animation {
-    margin-top: -10px; /* Move animation up */
     margin-right: 45px;
     font-family: 'Fira Code', monospace;
 }
@@ -39,8 +38,10 @@
 .dane {
     color: #E3D9B6; /* Change to Bone White */
     margin-right: 65px; /* Move "Dane" to the left */
+    letter-spacing: -3px; /* Decreases space between letters */
 }
 
 .sorensen {
     color: #BF5700; /* Change to Burnt Orange */
+    letter-spacing: -3px; /* Decreases space between letters */
 }
