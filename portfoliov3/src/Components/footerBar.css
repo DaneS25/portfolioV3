@@ -41,3 +41,11 @@
     font-family: "Fira Code", monospace;
     color: #BF5700; /* Burnt orange color */
 }
+
+.github-logo {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    margin-left: auto; /* Add space between text and logo */
+    opacity: 0.2; /* Slightly transparent */
+}
+

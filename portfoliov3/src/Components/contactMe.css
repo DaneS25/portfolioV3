@@ -1,0 +1,35 @@
+.contact-container {
+    text-align: center; /* Center the content */
+    padding: 20px;
+    background-color: #232323; /* Match your portfolio's theme */
+    color: #d0c7c7; /* Text color */
+    padding-bottom: 90px;
+    line-height: 2.8; /* Improve readability */
+}
+
+.contact-header {
+    font-size: 28px;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-weight: bold;
+    background: linear-gradient(45deg, #BF5700, #eeb6af);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-info {
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #BF5700; /* Set the link color to your burnt orange */
+    text-decoration: underline; /* Optional: underline for links */
+}
+
+.separator {
+    margin: 0 80px; /* Space between email and phone */
+}
+
