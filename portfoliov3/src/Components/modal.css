@@ -30,3 +30,70 @@
     font-size: 14px;
     cursor: pointer;
 }
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .modal-content {
+        max-width: 90%; /* Use a higher percentage for smaller screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+        margin: 0 10px; /* Add some margin to prevent edge contact */
+    }
+
+    .modal-close {
+        font-size: 16px; /* Slightly larger close button on mobile */
+        padding: 5px; /* Increase the touch target size */
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        max-width: 95%; /* Further increase width for very small screens */
+        padding: 10px; /* Further reduce padding */
+    }
+
+    .modal-close {
+        font-size: 18px; /* Make close button larger for easier access */
+    }
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 15px; /* Reduce padding for mobile */
+        max-width: 90%; /* Allow more width on mobile */
+        max-height: 90%; /* Adjust max height for better fit */
+    }
+
+    .modal-close {
+        font-size: 12px; /* Smaller close button font size */
+        top: 8px; /* Adjust close button position */
+        right: 8px; /* Adjust close button position */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .modal-content {
+        padding: 20px; /* Default padding for tablets */
+        max-width: 80%; /* Default max width */
+        max-height: 85%; /* Slightly increase max height */
+    }
+
+    .modal-close {
+        font-size: 14px; /* Default close button font size */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .modal-content {
+        padding: 20px; /* Default padding for larger screens */
+        max-width: 50%; /* Smaller width for better proportions */
+        max-height: 80%; /* Retain max height */
+    }
+
+    .modal-close {
+        font-size: 16px; /* Larger close button font size */
+    }
+}

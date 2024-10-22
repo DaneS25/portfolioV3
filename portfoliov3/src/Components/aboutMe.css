@@ -50,3 +50,60 @@
     font-size: 16px; /* Adjust font size for paragraph */
     line-height: 1.5; /* Improve readability */
 }
+
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .about-me-section {
+        flex-direction: column; /* Stack content vertically */
+        padding: 30px 10px; /* Reduce padding */
+    }
+
+    .about-me-container {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .about-me-image {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 15px; /* Add bottom margin */
+        width: 120px; /* Adjust image size for mobile */
+        height: 120px; /* Maintain aspect ratio */
+    }
+
+    .about-me-text h2 {
+        font-size: 24px; /* Smaller font size for mobile */
+    }
+
+    .about-me-text p {
+        font-size: 14px; /* Smaller font size for paragraph */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .about-me-section {
+        padding: 40px 15px; /* Adjust padding for tablets */
+    }
+
+    .about-me-image {
+        width: 130px; /* Slightly larger image */
+        height: 130px; /* Maintain aspect ratio */
+    }
+
+    .about-me-text h2 {
+        font-size: 26px; /* Adjust font size for tablets */
+    }
+
+    .about-me-text p {
+        font-size: 15px; /* Adjust font size for paragraph */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .about-me-section {
+        padding: 50px 20px; /* Default padding for larger screens */
+    }
+}

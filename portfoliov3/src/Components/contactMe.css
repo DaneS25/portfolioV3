@@ -3,7 +3,7 @@
     padding: 20px;
     background-color: #232323; /* Match your portfolio's theme */
     color: #d0c7c7; /* Text color */
-    padding-bottom: 90px;
+    padding-bottom: 190px;
     line-height: 2.8; /* Improve readability */
 }
 
@@ -33,3 +33,62 @@
     margin: 0 80px; /* Space between email and phone */
 }
 
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .contact-header {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+
+    .contact-info {
+        font-size: 8px; /* Adjust font size for contact info */
+    }
+
+    .separator {
+        margin: 0 20px; /* Reduce space for mobile */
+    }
+
+    .contact-container {
+        padding-bottom: 100px; /* Adjust bottom padding for mobile */
+        line-height: 2.4; /* Improve readability on mobile */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .contact-header {
+        font-size: 24px; /* Adjust font size for tablets */
+    }
+
+    .contact-info {
+        font-size:14px; /* Slightly larger font size for tablets */
+    }
+
+    .separator {
+        margin: 0 50px; /* Adjust spacing for tablets */
+    }
+
+    .contact-container {
+        padding-bottom: 150px; /* Adjust bottom padding for tablets */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .contact-header {
+        font-size: 28px; /* Default font size for larger screens */
+    }
+
+    .contact-info {
+        font-size: 16px; /* Default font size */
+    }
+
+    .separator {
+        margin: 0 80px; /* Default spacing */
+    }
+
+    .contact-container {
+        padding-bottom: 190px; /* Default padding */
+    }
+}

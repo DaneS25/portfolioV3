@@ -35,3 +35,41 @@
 .age {
     color: #BF5700; /* Change to Burnt Orange */
 }
+
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .info-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center align items */
+        transform: translateX(0); /* Remove translation for better alignment */
+    }
+
+    .info-item {
+        font-size: 12px; /* Decrease font size for smaller screens */
+        margin-bottom: 10px; /* Space between items */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .info-container {
+        padding: 15px; /* Slightly reduce padding for tablets */
+    }
+
+    .info-item {
+        font-size: 13px; /* Slightly larger font size for tablets */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .info-container {
+        padding: 20px; /* Default padding for larger screens */
+    }
+
+    .info-item {
+        font-size: 14px; /* Default font size */
+    }
+}

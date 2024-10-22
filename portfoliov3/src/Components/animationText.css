@@ -45,3 +45,53 @@
     color: #BF5700; /* Change to Burnt Orange */
     letter-spacing: -3px; /* Decreases space between letters */
 }
+
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .wrapper {
+        font-size: 60px; /* Smaller font size for mobile */
+        margin-bottom: 10px; /* Reduce bottom margin */
+    }
+
+    .animation {
+        margin-right: 20px; /* Reduce right margin */
+    }
+
+    .dane {
+        margin-right: 30px; /* Adjust margin for mobile */
+    }
+
+    .sorensen {
+        margin-right: 0; /* Remove margin on mobile */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .wrapper {
+        font-size: 90px; /* Adjust font size for tablets */
+        margin-bottom: 15px; /* Adjust bottom margin */
+    }
+
+    .animation {
+        margin-right: 30px; /* Adjust right margin for tablets */
+    }
+
+    .dane {
+        margin-right: 50px; /* Adjust margin for tablets */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .wrapper {
+        font-size: 138px; /* Default font size for larger screens */
+        margin-bottom: 20px; /* Default bottom margin */
+    }
+
+    .animation {
+        margin-right: 45px; /* Default right margin */
+    }
+}

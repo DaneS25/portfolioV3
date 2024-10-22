@@ -28,9 +28,7 @@
 /* Text on the left */
 .footer-text-left {
     font-size: 14px;
-    font-style: italic;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-family: 'Fira Code', monospace;
     color: #E3D9B6; /* Bone white color */
     opacity: 0.4; /* Slightly transparent */
 }
@@ -49,3 +47,67 @@
     opacity: 0.2; /* Slightly transparent */
 }
 
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px 15px; /* Reduce padding for mobile */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center align items */
+        text-align: center; /* Center text */
+    }
+
+    .footer-text-left,
+    .footer-text-right {
+        font-size: 12px; /* Smaller font size for mobile */
+    }
+
+    .github-logo {
+        width: 25px; /* Adjust logo size for mobile */
+        opacity: 0.5; /* Increase opacity for better visibility */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .footer {
+        padding: 10px 20px; /* Keep default padding */
+    }
+
+    .footer-content {
+        justify-content: space-between; /* Default layout */
+    }
+
+    .footer-text-left,
+    .footer-text-right {
+        font-size: 13px; /* Slightly larger font size for tablets */
+    }
+
+    .github-logo {
+        width: 28px; /* Adjust logo size for tablets */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .footer {
+        padding: 10px 20px; /* Default padding */
+    }
+
+    .footer-content {
+        justify-content: space-between; /* Default layout */
+    }
+
+    .footer-text-left,
+    .footer-text-right {
+        font-size: 14px; /* Default font size */
+    }
+
+    .github-logo {
+        width: 30px; /* Default logo size */
+    }
+}

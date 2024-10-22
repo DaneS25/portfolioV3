@@ -52,3 +52,53 @@
 .navbar-button:hover {
     background-color: #BF5700; /* Darker burnt orange on hover */
 }
+
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 10px 15px; /* Reduce padding for smaller screens */
+    }
+
+    .navbar-text {
+        font-size: 22px; /* Decrease font size for smaller screens */
+    }
+
+    .navbar-button {
+        padding: 6px 15px; /* Adjust button padding */
+        font-size: 12px; /* Decrease font size for buttons */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .navbar {
+        padding: 10px 20px; /* Default padding for tablets */
+    }
+
+    .navbar-text {
+        font-size: 26px; /* Slightly smaller font size for tablets */
+    }
+
+    .navbar-button {
+        padding: 7px 18px; /* Adjust button padding for tablets */
+        font-size: 13px; /* Slightly larger font size for buttons */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .navbar {
+        padding: 10px 20px; /* Default padding for larger screens */
+    }
+
+    .navbar-text {
+        font-size: 28px; /* Default font size */
+    }
+
+    .navbar-button {
+        padding: 8px 20px; /* Default button padding */
+        font-size: 14px; /* Default font size for buttons */
+    }
+}

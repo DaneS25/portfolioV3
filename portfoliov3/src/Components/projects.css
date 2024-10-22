@@ -116,4 +116,86 @@
     font-family: 'Fira Code', monospace;
     font-size: 14px;
 }
+
+/* Media Queries */
+
+/* Mobile devices */
+@media (max-width: 600px) {
+    .projects-container {
+        padding: 15px; /* Reduce padding */
+    }
+
+    .projects-header {
+        font-size: 22px; /* Decrease header font size */
+        margin-left: 20px; /* Adjust margin */
+    }
+
+    .projects-content {
+        flex-direction: column; /* Stack project containers vertically */
+        align-items: center; /* Center items */
+    }
+
+    .project {
+        width: 90%; /* Take more width on mobile */
+        margin-bottom: 20px; /* Space between projects */
+    }
+
+    .project-description {
+        font-size: 14px; /* Decrease description font size */
+    }
+    .project-description.poker-description {
+        margin-left: 0; /* Adjust this value as needed */
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .projects-container {
+        padding: 20px; /* Default padding for tablets */
+    }
+
+    .projects-header {
+        font-size: 24px; /* Slightly decrease font size */
+        margin-left: 70px; /* Adjust margin */
+    }
+
+    .projects-content {
+        flex-direction: row; /* Default row layout */
+        align-items: flex-start; /* Align items at the start */
+    }
+
+    .project {
+        width: 45%; /* Slightly larger width for projects */
+        margin-bottom: 20px; /* Space between projects */
+    }
+
+    .project-description {
+        font-size: 15px; /* Adjust description font size */
+    }
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+    .projects-container {
+        padding: 20px; /* Default padding for larger screens */
+    }
+
+    .projects-header {
+        font-size: 28px; /* Default header font size */
+        margin-left: 110px; /* Default margin */
+    }
+
+    .projects-content {
+        flex-direction: row; /* Default row layout */
+        align-items: flex-start; /* Align items at the start */
+    }
+
+    .project {
+        width: 40%; /* Default width for projects */
+    }
+
+    .project-description {
+        font-size: 16px; /* Default description font size */
+    }
+}
   
