@@ -39,7 +39,7 @@ export function Projects() {
             </div>
           </div>
           <div className="project-description">
-            <p className='headerText'>Steetle</p>
+            <p className='headerText'>Streetle</p>
             <p className='projectText'>
               Streetle is an engaging geography guessing game inspired by popular games like GeoGussr and Wordle. Built with React, it leverages the Google Streetview API to immerse players in real-world locations, challenging them to deduce the location based on visual clues. Each round presents a unique street view, and players must guess where they are on the map, honing their geographic knowledge and spatial awareness while having fun.
               <br />
