@@ -95,10 +95,10 @@ export function Projects() {
           <div className="project-description">
             <p className='headerText'>Online Store</p>
             <p className='projectText'>
-              The Online Store project is a fully functional e-commerce platform built with React and Firebase. It features a sleek, modern design, product listing, shopping cart functionality, and an intuitive user interface, providing a seamless shopping experience for users. This project showcases my skills in front-end development, state management, and integration with backend services.
+            The Online Store project is a complete e-commerce platform built with React and Firebase, showcasing a sleek design, product listings, shopping cart functionality, and admin features for managing products (add, edit, remove). It integrates Stripe for secure payments, highlighting my expertise in front-end development, state management, and backend integration. Test the admin account using email: bill@email.com and password: billpass.
               <br />
               <div className="link-button-container">
-                <a href="https://dane-poker.web.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#BF5700', textDecoration: 'underline' }}>Visit the Store</a>
+                <a href="https://shop-project-4b475.web.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#BF5700', textDecoration: 'underline' }}>Visit the Store</a>
                 <button onClick={() => openModal(shopDemo)} style={{ cursor: 'pointer', color: '#BF5700', background: 'none', border: 'none', textDecoration: 'underline', padding: '0' }} className='buttonDemo'>Watch Demo</button>
               </div>
             </p>
@@ -117,7 +117,7 @@ export function Projects() {
           <div className="project-description poker-description">
             <p className='headerText'>RSVP App</p>
             <p className='projectText'>
-              The RSVP App is a React-based application that allows users to RSVP to events with ease. It features a clean and intuitive user interface and uses EmailJS for email notifications. The app also implements Google reCAPTCHA to prevent spam submissions. This project demonstrates my abilities in creating user-friendly forms and integrating third-party services for enhanced functionality.
+            The RSVP App is a React-based application that allows users to RSVP to events with ease. It features a clean and intuitive user interface, uses EmailJS for email notifications, and includes Google reCAPTCHA to prevent spam submissions. The app also validates user input to ensure accurate and reliable responses. This project demonstrates my abilities in creating user-friendly forms and integrating third-party services for enhanced functionality.
               <br />
               <div className="link-button-container">
                 <a href="https://rsvp-ten-fawn.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#BF5700', textDecoration: 'underline' }}>Visit RSVP</a>
