@@ -29,8 +29,9 @@
 
 .projects-content {
     display: flex;
-    justify-content: center; /* Center the project containers */
-    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
     padding-bottom: 80px;
 }
 
@@ -38,7 +39,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%; /* Adjust width to fit better on screen */
+    width: 45%; /* Adjust width to fit two projects side by side */
+    margin-bottom: 40px; /* Space between projects */
 }
 
 .slideshow {
@@ -51,7 +53,7 @@
 .slideshow img {
     position: absolute; /* Position each image on top of each other */
     width: 100%; /* Make images smaller */
-    height: auto; /* Maintain aspect ratio */
+    height: 100%; /* Maintain aspect ratio and fill slideshow container */
     top: 50%; /* Center images vertically */
     left: 50%; /* Center images horizontally */
     transform: translate(-40%, -50%); /* Adjust for centering */
@@ -78,6 +80,7 @@
     text-align: left;
     font-size: 16px;
     color: #666;
+    width: 100%;
 }
 
 .project-description.poker-description {
@@ -131,8 +134,12 @@
     }
 
     .projects-content {
-        flex-direction: column; /* Stack project containers vertically */
-        align-items: center; /* Center items */
+        display: grid;
+        grid-template-columns: 1fr; /* Create a 1-column grid for phones */
+        gap: 20px;
+        padding-bottom: 60px;
+        justify-items: center;
+        align-items: start;
     }
 
     .project {
@@ -160,8 +167,12 @@
     }
 
     .projects-content {
-        flex-direction: row; /* Default row layout */
-        align-items: flex-start; /* Align items at the start */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Create a 2-column grid for larger screens */
+        gap: 20px;
+        padding-bottom: 80px;
+        justify-items: center;
+        align-items: start;
     }
 
     .project {

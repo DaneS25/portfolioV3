@@ -9,8 +9,18 @@ import poker5 from '../Assets/poker-5.png';
 import poker6 from '../Assets/poker-6.png';
 import poker7 from '../Assets/poker-7.png';
 import poker8 from '../Assets/poker-8.png';
+import shop1 from '../Assets/shop-1.png';
+import shop2 from '../Assets/shop-2.png';
+import shop3 from '../Assets/shop-3.png';
+import shop4 from '../Assets/shop-4.png';
+import rsvp1 from '../Assets/rsvp-1.png';
+import rsvp2 from '../Assets/rsvp-2.png';
+import rsvp3 from '../Assets/rsvp-3.png';
+import rsvp4 from '../Assets/rsvp-4.png';
 import streetleDemo from '../Assets/streetlevid.mp4';
 import pokerDemo from '../Assets/pokervid.mp4';
+import shopDemo from '../Assets/shopvid.mp4';
+import rsvpDemo from '../Assets/rsvpvid.mp4';
 
 export function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -70,6 +80,50 @@ export function Projects() {
                   <button onClick={() => openModal(pokerDemo)} style={{ cursor: 'pointer', color: '#BF5700', background: 'none', border: 'none', textDecoration: 'underline', padding: '0' }} className='buttonDemo'>Watch Demo</button>
                 </div>
               </p>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="slideshow">
+            <div className="slideshow-inner">
+              <img src={shop1} alt="Project 3 - Slide 1" />
+              <img src={shop2} alt="Project 3 - Slide 2" />
+              <img src={shop3} alt="Project 3 - Slide 3" />
+              <img src={shop4} alt="Project 3 - Slide 4" />
+            </div>
+          </div>
+          <div className="project-description">
+            <p className='headerText'>Online Store</p>
+            <p className='projectText'>
+              The Online Store project is a fully functional e-commerce platform built with React and Firebase. It features a sleek, modern design, product listing, shopping cart functionality, and an intuitive user interface, providing a seamless shopping experience for users. This project showcases my skills in front-end development, state management, and integration with backend services.
+              <br />
+              <div className="link-button-container">
+                <a href="https://dane-poker.web.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#BF5700', textDecoration: 'underline' }}>Visit the Store</a>
+                <button onClick={() => openModal(shopDemo)} style={{ cursor: 'pointer', color: '#BF5700', background: 'none', border: 'none', textDecoration: 'underline', padding: '0' }} className='buttonDemo'>Watch Demo</button>
+              </div>
+            </p>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="slideshow">
+            <div className="slideshow-inner">
+              <img src={rsvp1} alt="Project 4 - Slide 1" />
+              <img src={rsvp2} alt="Project 4 - Slide 2" />
+              <img src={rsvp3} alt="Project 4 - Slide 3" />
+              <img src={rsvp4} alt="Project 4 - Slide 4" />
+            </div>
+          </div>
+          <div className="project-description poker-description">
+            <p className='headerText'>RSVP App</p>
+            <p className='projectText'>
+              The RSVP App is a React-based application that allows users to RSVP to events with ease. It features a clean and intuitive user interface and uses EmailJS for email notifications. The app also implements Google reCAPTCHA to prevent spam submissions. This project demonstrates my abilities in creating user-friendly forms and integrating third-party services for enhanced functionality.
+              <br />
+              <div className="link-button-container">
+                <a href="https://rsvp-ten-fawn.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#BF5700', textDecoration: 'underline' }}>Visit RSVP</a>
+                <button onClick={() => openModal(rsvpDemo)} style={{ cursor: 'pointer', color: '#BF5700', background: 'none', border: 'none', textDecoration: 'underline', padding: '0' }} className='buttonDemo'>Watch Demo</button>
+              </div>
+            </p>
           </div>
         </div>
       </div>
